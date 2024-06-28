@@ -3,7 +3,8 @@ import Button from "./Button";
 
 const MainSection = () => {
   return (
-    <div
+    <section
+      id="mainSection"
       className="relative bg-cover bg-top h-screen"
       style={{
         backgroundImage:
@@ -26,7 +27,7 @@ const MainSection = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

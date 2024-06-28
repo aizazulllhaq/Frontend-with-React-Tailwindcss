@@ -13,16 +13,28 @@ const Home = () => {
   return (
     <div>
       <Navbar />
+
       <MainSection />
-      <div className="serviceSection">
+
+      <section id="servicesSection">
         <ServicesSection />
-      </div>
+      </section>
       <FeaturesSection />
-      <PlanSection />
-      <ReviewsSection />
-      <TialSection />
-      <JoinUsSection />
-      <Footer />
+      <section id="planSection">
+        <PlanSection />
+      </section>
+      <section id="reviewsSection">
+        <ReviewsSection />
+      </section>
+      <section id="tialSection">
+        <TialSection />
+      </section>
+      <section id="joinUsSection">
+        <JoinUsSection />
+      </section>
+      <section id="footerSection">
+        <Footer />
+      </section>
     </div>
   );
 };

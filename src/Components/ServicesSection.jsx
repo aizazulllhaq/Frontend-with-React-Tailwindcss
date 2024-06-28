@@ -1,17 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const LearnMore = ({ to }) => {
-  const anchorText = "Learn More >";
-  return (
-    <div className="mt-5">
-     <Link to={to} className="text-xl text-blue-900">
-        {anchorText}
-      </Link>
-    </div>
-  );
-};
-
 const ServicesSection = () => {
   return (
     <section className="h-screen bg-white">
@@ -24,7 +13,11 @@ const ServicesSection = () => {
             Vokalia and Consonantia, there live the blind texts. Separated they
             live in Bookmarksgrove right at the coast of the Semantics, a large
             language ocean
-            <LearnMore to={"/"} />
+            <div className="mt-5">
+              <Link to={"/"} className="text-xl text-blue-900">
+                {"Learn More >"}
+              </Link>
+            </div>
           </p>
         </div>
         <div className="second p-20">
@@ -35,7 +28,11 @@ const ServicesSection = () => {
             Vokalia and Consonantia, there live the blind texts. Separated they
             live in Bookmarksgrove right at the coast of the Semantics, a large
             language ocean
-            <LearnMore to={"/"} />
+            <div className="mt-5">
+              <Link to={"/"} className="text-xl text-blue-900">
+              {"Learn More >"}
+              </Link>
+            </div>
           </p>
         </div>
         <div className="third p-20">
@@ -46,7 +43,11 @@ const ServicesSection = () => {
             Vokalia and Consonantia, there live the blind texts. Separated they
             live in Bookmarksgrove right at the coast of the Semantics, a large
             language ocean
-            <LearnMore to={"/"} />
+            <div className="mt-5">
+              <Link to={"/"} className="text-xl text-blue-900">
+              {"Learn More >"}
+              </Link>
+            </div>
           </p>
         </div>
       </div>

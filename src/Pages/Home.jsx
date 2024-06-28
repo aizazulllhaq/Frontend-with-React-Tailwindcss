@@ -14,14 +14,15 @@ const Home = () => {
     <div>
       <Navbar />
       <MainSection />
-      <ServicesSection/>
-      <FeaturesSection/>
-      <PlanSection/>
-      <ReviewsSection/>
-      <TialSection/>
-      <JoinUsSection/>
-      <Footer/>
-
+      <div className="serviceSection">
+        <ServicesSection />
+      </div>
+      <FeaturesSection />
+      <PlanSection />
+      <ReviewsSection />
+      <TialSection />
+      <JoinUsSection />
+      <Footer />
     </div>
   );
 };

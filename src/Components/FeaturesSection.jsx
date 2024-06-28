@@ -13,7 +13,7 @@ const FeaturesSection = () => {
         </p>
       </div>
         <div className="second parent flex justify-between mt-32">
-          <div className="c1 ml-5 w-1/2 mx-10">
+          <div className="c1 ml-5 w-1/2 mx-10 animate-moveUp">
             <img src="https://uicookies.com/demo/theme/frame/img/img_showcase_1.jpg" className="" alt="Loading..." />
           </div>
           <div className="c2 pl-5 w-1/2 mx-10">
@@ -44,12 +44,12 @@ const FeaturesSection = () => {
               <li> ✔ Roasted parts of sentences fly into your mouth</li>
             </ul>
           </div>
-          <div className="c2 pl-5 w-1/2 mx-10">
+          <div className="c2 pl-5 w-1/2 mx-10 animate-moveUp">
             <img src="https://uicookies.com/demo/theme/frame/img/img_showcase_1.jpg" alt="Loading..." />
           </div>
       </div>
       <div className="four parent flex justify-between mt-32 pb-32">
-          <div className="c1 ml-5 w-1/2 mx-10">
+          <div className="c1 ml-5 w-1/2 mx-10 animate-moveUp">
             <img src="https://uicookies.com/demo/theme/frame/img/img_showcase_1.jpg" className="" alt="Loading..." />
           </div>
           <div className="c2 pl-5 w-1/2 mx-10">

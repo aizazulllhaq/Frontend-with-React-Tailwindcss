@@ -15,7 +15,7 @@ const ReviewsSection = () => {
         </p>
       </div>
       <div className="first-3-cards flex">
-        <div className="first my-40 ml-40 w-1/2 px-2 shadow-sm shadow-gray-500 bg-white rounded-md">
+        <div className="first my-40 ml-40 w-1/2 px-2 shadow-xl hover:shadow-gray-400 bg-white rounded-md">
           <img src={avatar} alt="" className="rounded-full w-20 ml-5 mt-5" />
           <p className="pt-10 pl-5">⭐⭐⭐⭐⭐</p>
           <p className="text-md font-semibold pl-5 pt-5">
@@ -28,7 +28,7 @@ const ReviewsSection = () => {
           <h1 className="opacity-50 pl-5 mt-10 mb-5">-- Aizaz Ul Haq</h1>
         </div>
 
-        <div className="second my-40 ml-20 shadow-sm shadow-gray-500 w-1/2 px-2 bg-white rounded-md">
+        <div className="second my-40 ml-20 shadow-xl hover:shadow-gray-400 w-1/2 px-2 bg-white rounded-md">
           <img src={avatar} alt="" className="rounded-full w-20 ml-5 mt-5" />
           <p className="pt-10 pl-5">⭐⭐⭐⭐⭐</p>
           <p className="text-md font-semibold pl-5 pt-5">
@@ -41,7 +41,7 @@ const ReviewsSection = () => {
           <h1 className="opacity-50 pl-5 mt-10">-- Aizaz Ul Haq</h1>
         </div>
 
-        <div className="third my-40 mx-20 shadow-sm shadow-gray-500 w-1/2 px-2 bg-white rounded-md">
+        <div className="third my-40 mx-20 shadow-xl hover:shadow-gray-400 w-1/2 px-2 bg-white rounded-md">
           <img src={avatar} alt="" className="rounded-full w-20 ml-5 mt-5" />
           <p className="pt-10 pl-5">⭐⭐⭐⭐⭐</p>
           <p className="text-md font-semibold pl-5 pt-5">
@@ -56,7 +56,7 @@ const ReviewsSection = () => {
       </div>
 
       <div className="last-3-cards flex">
-        <div className="first ml-40  w-1/2 px-2 shadow-sm shadow-gray-500 bg-white rounded-md">
+        <div className="first ml-40  w-1/2 px-2 shadow-xl hover:shadow-gray-400 bg-white rounded-md">
           <img src={avatar} alt="" className="rounded-full w-20 ml-5 mt-5" />
           <p className="pt-10 pl-5">⭐⭐⭐⭐⭐</p>
           <p className="text-md font-semibold pl-5 pt-5">
@@ -69,7 +69,7 @@ const ReviewsSection = () => {
           <h1 className="opacity-50 pl-5 mt-10 pb-5">-- Aizaz Ul Haq</h1>
         </div>
 
-        <div className="second  ml-20 shadow-sm shadow-gray-500 w-1/2 px-2 bg-white rounded-md">
+        <div className="second  ml-20 shadow-xl hover:shadow-gray-400 w-1/2 px-2 bg-white rounded-md">
           <img src={avatar} alt="" className="rounded-full w-20 ml-5 mt-5" />
           <p className="pt-10 pl-5">⭐⭐⭐⭐⭐</p>
           <p className="text-md font-semibold pl-5 pt-5">
@@ -82,7 +82,7 @@ const ReviewsSection = () => {
           <h1 className="opacity-50 pl-5 mt-10">-- Aizaz Ul Haq</h1>
         </div>
 
-        <div className="third mx-20 shadow-sm shadow-gray-500 w-1/2 px-2 bg-white rounded-md">
+        <div className="third mx-20 shadow-xl hover:shadow-gray-400 w-1/2 px-2 bg-white rounded-md">
           <img src={avatar} alt="" className="rounded-full w-20 ml-5 mt-5" />
           <p className="pt-10 pl-5">⭐⭐⭐⭐⭐</p>
           <p className="text-md font-semibold pl-5 pt-5">

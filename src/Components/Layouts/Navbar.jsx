@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import "../../App"
+import "../../App.css"
 
 const Navbar = () => {
   return (
@@ -11,11 +11,12 @@ const Navbar = () => {
         </div>
         <div>
             <ul className='flex space-x-10'>
-                <li><Link to={"/"} className="text-white hover:bg-red-50">Home</Link></li>
+                <li><Link to={"/"}  className="text-white hover:bg-red-50 hover:text-black cursor-pointer">Home</Link></li>
                 <li><Link to={"/features"} className="text-white hover:text-gray-300 cursor-pointer">Features</Link></li>
                 <li><Link to={"/reviews"} className="text-white hover:text-gray-300">Reviews</Link></li>
                 <li><Link to={"/pricing"} className="text-white hover:text-gray-300">Pricing</Link></li>
                 <li><Link to={"/contact"} className="text-white hover:text-gray-300">Contact</Link></li>
+                <li><Link to={"serviceSection"} smooth={true} duration={500} className="text-white hover:text-gray-300 cursor-pointer">Services</Link></li>
             </ul>
         </div>
       </div>

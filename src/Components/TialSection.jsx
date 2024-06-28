@@ -3,7 +3,7 @@ import Button from "./Button";
 
 const TialSection = () => {
   return (
-    <section className="trial">
+    <section className="trial mb-20">
       <div className="first">
         <h1 className="text-6xl text-center pt-20">Try It Today</h1>
         <p className="pt-10 text-center">
@@ -20,7 +20,7 @@ const TialSection = () => {
         </div>
       </div>
 
-      <div className="second">
+      {/* <div className="second">
         <div className="a flex justify-center items-center">
           <img
             src="https://uicookies.com/demo/theme/frame/img/laptop_1.jpg"
@@ -83,6 +83,67 @@ const TialSection = () => {
               </p>
             </div>
           </div>
+        </div>
+      </div> */}
+       <div className="second">
+        <div className="a flex justify-center items-center">
+          <img
+            src="https://uicookies.com/demo/theme/frame/img/laptop_1.jpg"
+            alt=""
+          />
+        </div>
+          <div className="b flex flex-wrap p-10 justify-evenly">
+            <div className="w-1/2 p-5">
+              <h1 className="text-xl text-blue-700">
+                {" "}
+                ✔ What is Instant?
+              </h1>
+              <p className="opacity-70 pt-5">
+                Even the all-powerful Pointing has no control about the blind
+                texts it is an almost unorthographic life One day however a
+                small line of blind text by the name of Lorem Ipsum decided to
+                leave for the far World of Grammar.
+              </p>
+            </div>
+
+            <div className="w-1/2 p-5">
+              <h1 className="text-xl text-blue-700">
+                {" "}
+                ✔ What is Instant?
+              </h1>
+              <p className="opacity-70 pt-5">
+                Even the all-powerful Pointing has no control about the blind
+                texts it is an almost unorthographic life One day however a
+                small line of blind text by the name of Lorem Ipsum decided to
+                leave for the far World of Grammar.
+              </p>
+            </div>
+
+            <div className="w-1/2 p-5">
+              <h1 className="text-xl text-blue-700">
+                {" "}
+                ✔ What is Instant?
+              </h1>
+              <p className="opacity-70 pt-5">
+                Even the all-powerful Pointing has no control about the blind
+                texts it is an almost unorthographic life One day however a
+                small line of blind text by the name of Lorem Ipsum decided to
+                leave for the far World of Grammar.
+              </p>
+            </div>
+
+            <div className="w-1/2 p-5">
+              <h1 className="text-xl text-blue-700">
+                {" "}
+                ✔ What is Instant?
+              </h1>
+              <p className="opacity-70 pt-5">
+                Even the all-powerful Pointing has no control about the blind
+                texts it is an almost unorthographic life One day however a
+                small line of blind text by the name of Lorem Ipsum decided to
+                leave for the far World of Grammar.
+              </p>
+            </div>
         </div>
       </div>
     </section>
